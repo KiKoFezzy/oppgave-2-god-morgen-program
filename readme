@@ -13,3 +13,4 @@ else if (klokken mellom 12 og 17)
 {print "God dag" + (navn) + "!" i terminalen}
 else (klokka er mer enn 17)
 {print "God kveld" + (navn) + "!" i terminalen}
+
