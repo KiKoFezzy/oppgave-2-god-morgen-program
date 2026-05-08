@@ -1,0 +1,12 @@
+starter med å finne ut av hva tiden er "nå"
+if else statement for å dele tiden på tre perioder under 12 - god morgen, mellom 12 og 17 - god dag, og etter 17 - god kveld
+
+class program
+static void 
+
+if (klokken er under 12)
+{print "God morgen!" i terminalen}
+else if (klokken mellom 12 og 17)
+{print "God dag!" i terminalen}
+else (klokka er mer enn 17)
+{print "God kveld!" i terminalen}
