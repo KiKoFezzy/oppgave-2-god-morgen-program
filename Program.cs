@@ -3,18 +3,20 @@
     static void Main()
     {
         int hour = DateTime.Now.Hour; //hent den virkelige tiden (0-23)
+        Console.Write("Hva heter du? ");
+        string name = Console.ReadLine();
 
         if (hour < 12)
         {
-            Console.WriteLine("God morgen!"); //om klokka er under 12, print ut "god morgen" i terminalen
+            Console.WriteLine("God morgen " + (name) + "!"); //om klokka er under 12, print ut "god morgen! navn" i terminalen
         }
         else if (hour < 17)
         {
-            Console.WriteLine("God dag!"); //om klokka er mellom 12 og 17, print ut "god dag" i terminalen
+            Console.WriteLine("God dag " + (name) + "!"); //om klokka er mellom 12 og 17, print ut "god dag! navn" i terminalen
         }
         else
         {
-            Console.WriteLine("God kveld!"); //om klokka er etter 17, print ut "god kveld" i terminalen
+            Console.WriteLine("God kveld " + (name) + "!"); //om klokka er etter 17, print ut "god kveld! navn" i terminalen
         }
     }
 }
