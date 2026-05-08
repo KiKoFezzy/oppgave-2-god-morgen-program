@@ -3,10 +3,13 @@ if else statement for å dele tiden på tre perioder under 12 - god morgen, mell
 
 class program
 static void 
+int = tiden nå
+console.writeline - spør om navn
+string navn console.writeline - skriv navn i terminalen
 
 if (klokken er under 12)
-{print "God morgen!" i terminalen}
+{print "God morgen" + (navn) + "!" i terminalen}
 else if (klokken mellom 12 og 17)
-{print "God dag!" i terminalen}
+{print "God dag" + (navn) + "!" i terminalen}
 else (klokka er mer enn 17)
-{print "God kveld!" i terminalen}
+{print "God kveld" + (navn) + "!" i terminalen}
